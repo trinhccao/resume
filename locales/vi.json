@@ -1,0 +1,149 @@
+{
+  "lang": "vi",
+  "page_title": "Trình | Hồ sơ cá nhân",
+  "avatar_text": "Trình Cáo",
+  "lang_options": [
+    {
+      "name": "en",
+      "path": "/en",
+      "text": "English"
+    },
+    {
+      "name": "vi",
+      "path": "/vi",
+      "text": "Tiếng Việt"
+    }
+  ],
+  "sections": {
+    "headline": {
+      "title": "Tôi là một lập trình viên có tham vọng lớn.",
+      "description": "Xin chào. Tôi tên là Trình, tôi một lập trình viên web Front-End và cũng là một người thích tìm hiểu sâu về cách hoạt động của một chiếc máy tính.",
+      "email_me": "Gửi mail cho tôi",
+      "open_cv": "Xem CV"
+    },
+    "about-me": {
+      "title": "Về tôi",
+      "about_list": [
+        {
+          "title": "Tính cách",
+          "description": "Trung thực và hòa đồng tốt."
+        },
+        {
+          "title": "Khả năng tự học tốt",
+          "description": "Tôi là một người có khả năng tự học và tự nghiên cứu tốt. Các tài liệu bằng tiếng Anh là lựa chọn ưu tiên của tôi."
+        },
+        {
+          "title": "Nền tảng vững vàng",
+          "description": "Mọi ngôn ngữ lập trình tôi đã học và sử dụng đều được tích lũy từ những kiến thức cơ bản nhất. Vậy nên, tôi tự tin rằng, với mọi công nghệ dù là cũ nhất hay mới nhất thì mình đều dễ dàng làm quen với chúng một cách nhanh chóng."
+        },
+        {
+          "title": "Công việc mơ ước",
+          "description": "Tôi là một người có niềm đam mê to lớn với việc lập trình game và các ứng dụng hữu ích phục vụ cho người dùng thường ngày. Ngoài ra, công việc xây dựng giao diện web cũng được tôi chăm chút đến từng pixel, suy nghĩ đến trải nghiệm người dùng dù chỉ là chi tiết nhỏ nhất."
+        },
+        {
+          "title": "Tham vọng",
+          "description": "Với niềm đam mê mãnh liệt đối với lập trình máy tính, tôi đang nuôi tham vọng một ngày nào đó có thể tự tay viết được những ứng dụng hữu ích phục vụ cho tất cả mọi người."
+        }
+      ]
+    },
+    "skills": {
+      "title": "Kỹ năng",
+      "skill_list": [
+        {
+          "title": "HTML",
+          "description": "Việc sử dụng chính xác các thẻ HTML để xây dựng một website là một điều quan trọng trong lập trình web. Sau một thời gian làm việc và trải nghiệm thực tế, việc markup có ý nghĩa sẽ được tôi giải quyết tốt."
+        },
+        {
+          "title": "CSS",
+          "description": "Việc sử dụng CSS thuần để xây dựng một trang web và làm cho nó hỗ trợ các trình duyệt cũ là một trong những việc mất rất nhiều thời gian. Tuy nhiên, những vấn đề đó đã trở nên dễ dàng hơn đối với tôi sau một thời gian dài làm việc với CSS thuần túy. Các phiên bản mới của CSS rất gọn gàng và hiệu quả, tôi thích việc sử dụng chúng trong công việc."
+        },
+        {
+          "title": "JavaScript",
+          "description": "JavaScript là một ngôn ngữ lập trình cực kỳ thú vị và mạnh mẽ. Tôi đã dành rất nhiều thời gian của mình vào việc học JavaScript, vậy nên tôi tự tin rằng mình có một nền tảng kiến thức JavaScript tốt để phục vụ cho công việc. Tôi đặc biệt yêu thích các công việc sử dụng JavaScript."
+        },
+        {
+          "title": "React",
+          "description": "ReactJS là một thư viện UI yêu thích của tôi. Tôi có thể sử dụng ReactJS một cách trơn tru cho công việc."
+        }
+      ]
+    },
+    "experience": {
+      "title": "Kinh nghiệm",
+      "data": [
+        {
+          "title": "Hivelab Vina co., ltd",
+          "subtitle": "Tháng 8/2019 - Tháng 7/2021",
+          "experience_items": [
+            "Kinh nghiệm trong việc sử dụng các thẻ HTML có ý nghĩa",
+            "Luôn đảm bảo rằng HTML đã được viết tuân thủ quy tắc của W3C sử dụng trình kiểm tra HTML validation",
+            "Kinh nghiệm markup web accessibility",
+            "Hỗ trợ đa trình duyệt",
+            "Kinh nghiệm trong việc code giao diện Perfect pixel",
+            "Quen thuộc với việc sử dụng jQuery",
+            "Sử dụng tốt Git, Photoshop, Figma, Zeplin"
+          ]
+        },
+        {
+          "title": "Teneocto technologies",
+          "subtitle": "Tháng 9/2021 - Tháng 3/2023",
+          "experience_items": [
+            "Lập Trình HTML5 Game sử dụng Phaser",
+            "Tham gia phát triển ứng dụng Live stream sử dụng ReactJS",
+            "Sử dụng TypeScript cho công việc",
+            "Tham gia phát triển nhiều dự án khác của công ty như ứng dụng desktop sử dụng Electron, ứng dụng di động sử dụng Swift"
+          ]
+        }
+      ]
+    },
+    "showcase": {
+      "title": "Showcase",
+      "data": [
+        {
+          "title": "Game",
+          "project_type": "Pet project",
+          "description": "Một trò chơi đua xe mà tôi đã tự lập trình bằng JavaScript.",
+          "notes": [
+            {
+              "note": "Stack",
+              "description": "HTML, CSS, JavaScript"
+            },
+            {
+              "note": "Cách chơi",
+              "description": "Sử dụng phím mũi tên TRÁI/PHẢI để di chuyển."
+            },
+            {
+              "note": "Cách chơi",
+              "description": "Sử dụng phím mũi tên TRÁI/PHẢI để di chuyển."
+            },
+            {
+              "note": "Chú ý",
+              "description": "Trò chơi này có phát âm thanh."
+            }
+          ]
+        },
+        {
+          "title": "Lịch",
+          "project_type": "Pet project",
+          "description": "Một tờ lịch đơn giản mà tôi đã tự lập trình mà không sử dụng bất kỳ thư viện hỗ trợ nào.",
+          "notes": [
+            {
+              "note": "Stack",
+              "description": "HTML, CSS, JavaScript"
+            }
+          ]
+        },
+        {
+          "title": "Timeline",
+          "project_type": "Pet project",
+          "description": "Timeline đơn giản được tạo bằng HTML, CSS, JS thuần.",
+          "notes": [
+            {
+              "note": "Stack",
+              "description": "HTML, CSS, JavaScript"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+<ul class="lang-options">
+  {% for lang in data.lang_options %}
+    <li class="lang-options__item">
+      <a class="lang-options__link {% if lang.name == data.lang %}lang-options__link--active{% endif %}" href="{{ lang.path }}">
+        {{ lang.text }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
