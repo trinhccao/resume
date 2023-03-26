@@ -6,7 +6,7 @@ class Engine {
   #liquid: Liquid
 
   constructor() {
-    this.#liquid = new Liquid({ extname: '.liquid', root: 'templates' })
+    this.#liquid = new Liquid({ extname: '.liquid', root: 'views' })
   }
 
   async render(page: string, lang: string): Promise<string> {
