@@ -5,20 +5,20 @@
   "lang_options": [
     {
       "name": "en",
-      "path": "/en",
+      "path": "/en/",
       "text": "English"
     },
     {
       "name": "vi",
-      "path": "/vi",
+      "path": "/vi/",
       "text": "Tiếng Việt"
     }
   ],
   "sections": {
     "headline": {
       "title": "Tôi là một lập trình viên có tham vọng lớn.",
-      "description": "Xin chào. Tôi tên là Trình, tôi một lập trình viên web Front-End và cũng là một người thích tìm hiểu sâu về cách hoạt động của một chiếc máy tính.",
-      "email_me": "Gửi mail cho tôi",
+      "description": "Xin chào, tôi là Trình. Tôi là một lập trình viên web Front-End và cũng là một người thích tìm hiểu sâu về cách hoạt động của một chiếc máy tính.",
+      "email_me": "E-mail cho tôi",
       "open_cv": "Xem CV"
     },
     "about-me": {
@@ -71,9 +71,9 @@
       "title": "Kinh nghiệm",
       "experience_list": [
         {
-          "title": "Hivelab Vina co., ltd",
+          "title": "Hivelab Vina co., Ltd",
           "subtitle": "Tháng 8/2019 - Tháng 7/2021",
-          "experience_items": [
+          "items": [
             "Kinh nghiệm trong việc sử dụng các thẻ HTML có ý nghĩa",
             "Luôn đảm bảo rằng HTML đã được viết tuân thủ quy tắc của W3C sử dụng trình kiểm tra HTML validation",
             "Kinh nghiệm markup web accessibility",
@@ -84,9 +84,9 @@
           ]
         },
         {
-          "title": "Teneocto technologies",
+          "title": "Teneocto Technologies",
           "subtitle": "Tháng 9/2021 - Tháng 3/2023",
-          "experience_items": [
+          "items": [
             "Lập Trình HTML5 Game sử dụng Phaser",
             "Tham gia phát triển ứng dụng Live stream sử dụng ReactJS",
             "Sử dụng TypeScript cho công việc",
@@ -97,53 +97,54 @@
     },
     "showcase": {
       "title": "Showcase",
-      "data": [
+      "projects": [
         {
           "title": "Game",
-          "project_type": "Pet project",
+          "type": "Pet project",
           "description": "Một trò chơi đua xe mà tôi đã tự lập trình bằng JavaScript.",
           "notes": [
             {
-              "note": "Stack",
+              "keyword": "Stack",
               "description": "HTML, CSS, JavaScript"
             },
             {
-              "note": "Cách chơi",
+              "keyword": "Cách chơi",
               "description": "Sử dụng phím mũi tên TRÁI/PHẢI để di chuyển."
             },
             {
-              "note": "Cách chơi",
-              "description": "Sử dụng phím mũi tên TRÁI/PHẢI để di chuyển."
-            },
-            {
-              "note": "Chú ý",
+              "keyword": "Chú ý",
               "description": "Trò chơi này có phát âm thanh."
             }
           ]
         },
         {
           "title": "Lịch",
-          "project_type": "Pet project",
+          "type": "Pet project",
           "description": "Một tờ lịch đơn giản mà tôi đã tự lập trình mà không sử dụng bất kỳ thư viện hỗ trợ nào.",
           "notes": [
             {
-              "note": "Stack",
+              "keyword": "Stack",
               "description": "HTML, CSS, JavaScript"
             }
           ]
         },
         {
           "title": "Timeline",
-          "project_type": "Pet project",
+          "type": "Pet project",
           "description": "Timeline đơn giản được tạo bằng HTML, CSS, JS thuần.",
           "notes": [
             {
-              "note": "Stack",
+              "keyword": "Stack",
               "description": "HTML, CSS, JavaScript"
             }
           ]
         }
       ]
+    },
+    "footer": {
+      "copyright": "&copy; 2021",
+      "author": "Trình",
+      "update-note": "Đã cập nhật: 07/03/2023"
     }
   }
 }

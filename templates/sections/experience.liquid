@@ -1,4 +1,12 @@
 <section class="section">
   <h2 class="heading-lv2">{{ section_data.title }}</h2>
-  {% render 'snippets/timeline', experience_list: section_data.experience_list %}
+  <ul class="timeline">
+    {% for experience in section_data.experience_list %}
+      <li class="timeline__item">
+        <h3 class="heading-lv3">{{ experience.title }}</h3>
+        <span class="timeline__subtitle">{{ experience.subtitle }}</span>
+        {% render 'snippets/unordered-list', list: experience.items %}
+      </li>
+    {% endfor %}
+  </ul>
 </section>

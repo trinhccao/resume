@@ -1,4 +1,150 @@
 {
   "lang": "en",
-  "page_title": "Trinh | Resume"
+  "page_title": "Trinh | Resume",
+  "avatar_text": "Trinh Cao",
+  "lang_options": [
+    {
+      "name": "en",
+      "path": "/en/",
+      "text": "English"
+    },
+    {
+      "name": "vi",
+      "path": "/vi/",
+      "text": "Tiếng Việt"
+    }
+  ],
+  "sections": {
+    "headline": {
+      "title": "I am a Developer with ig ambitions.",
+      "description": "Hi. I'm Trinh, a Front-End web developer, who loves to dig deep into how a computer works.",
+      "email_me": "E-mail me",
+      "open_cv": "Open CV"
+    },
+    "about-me": {
+      "title": "About me",
+      "about_list": [
+        {
+          "title": "Personality",
+          "description": "Honesty and good sociability."
+        },
+        {
+          "title": "Good self-study",
+          "description": "I am a good self-learner by reading English documents."
+        },
+        {
+          "title": "Strong in basic",
+          "description": "Every programming language I have learned and used has accumulated from the most basic knowledge. So, I'm confident that, with any technology, whether it's the oldest or the newest, I can easily get used to them very quickly."
+        },
+        {
+          "title": "Desired job",
+          "description": "I am a person with great passion for programming games and useful applications for everyday users. In addition, the work of building the web interface is also taken care by me to every pixel, thinking about the user experience even the smallest details."
+        },
+        {
+          "title": "Ambitious",
+          "description": "With a strong passion for computer programming, I have the ambition to one day be able to write my own useful applications used by everyone."
+        }
+      ]
+    },
+    "skills": {
+      "title": "Skill",
+      "skill_list": [
+        {
+          "title": "HTML",
+          "description": "It is important to use HTML to markup a web page that is easy to understand for both computers and humans. After a period of practical work and experience, you can expect me to do those things well for you."
+        },
+        {
+          "title": "CSS",
+          "description": "Using pure CSS to build a website and make it support old browsers is difficult. Those things have become simpler for me after working in an environment that emphasizes compatibility. The new version of CSS is so cool, I love using it."
+        },
+        {
+          "title": "JavaScript",
+          "description": "JavaScript is a very interesting and powerful programming language. It's great, I have spent a lot of time learning JS and I am confident that I have a solid background in JavaScript. I love the job that use JavaScript."
+        },
+        {
+          "title": "React",
+          "description": "ReactJS is my favorite UI library. I can use ReactJS smoothly."
+        }
+      ]
+    },
+    "experience": {
+      "title": "Timeline",
+      "experience_list": [
+        {
+          "title": "Hivelab Vina co., Ltd",
+          "subtitle": "Aug 2019 - July 2021",
+          "items": [
+            "Markup semantic web",
+            "Always make sure HTML markup is validated using HTML validation",
+            "Web accessibility experience",
+            "Cross browser support",
+            "Perfect pixel coding",
+            "Familiar with jQuery",
+            "Familiar with Git, Photoshop, Figma, Zeplin"
+          ]
+        },
+        {
+          "title": "Teneocto Technologies",
+          "subtitle": "Sep 2021 - Mar 2023",
+          "items": [
+            "Developing HTML5 Game using Phaser",
+            "Contributing Live stream web application using React.js",
+            "Using TypeScript for works",
+            "Contribute to the development of many projects of the company, such as desktop app using Electron, mobile app using Swift"
+          ]
+        }
+      ]
+    },
+    "showcase": {
+      "title": "Showcase",
+      "projects": [
+        {
+          "title": "Game",
+          "type": "Pet project",
+          "description": "A racing game that I programmed with pure JavaScript.",
+          "notes": [
+            {
+              "keyword": "Stack",
+              "description": "HTML, CSS, JavaScript"
+            },
+            {
+              "keyword": "How to play",
+              "description": "Use LEFT/RIGHT arrow keys to move the car."
+            },
+            {
+              "keyword": "Notice",
+              "description": "This game has sound."
+            }
+          ]
+        },
+        {
+          "title": "Calendar",
+          "type": "Pet project",
+          "description": "A simple calendar that I created without using of any library.",
+          "notes": [
+            {
+              "keyword": "Stack",
+              "description": "HTML, CSS, JavaScript"
+            }
+          ]
+        },
+        {
+          "title": "Timeline",
+          "type": "Pet project",
+          "description": "A simple timeline that I created using HTML and pure CSS.",
+          "notes": [
+            {
+              "keyword": "Stack",
+              "description": "HTML, CSS, JavaScript"
+            }
+          ]
+        }
+      ]
+    },
+    "footer": {
+      "copyright": "&copy; 2021",
+      "author": "Trinh",
+      "update-note": "Updated on: 2023/03/07"
+    }
+  }
 }

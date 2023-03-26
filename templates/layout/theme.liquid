@@ -6,7 +6,23 @@
   <title>{{ data.page_title }}</title>
 </head>
 <body>
-  {% render 'sections/header', data: data %}
-  <main id="main">{{ page_content }}</main>
+  <header class="header" id="header">
+    <h1 class="header__heading">{% render 'snippets/avatar', data: data %}</h1>
+    {% render 'snippets/lang-options', data: data %}
+  </header>
+
+  <main class="main" id="main">
+    {{ page_content }}
+  </main>
+
+  <footer class="footer" id="footer">
+    <div class="footnote">
+      {{ data.sections.footer.copyright }}
+      <a class="social" href="https://linkedin.com/in/trinhcao96/">
+        <img class="social__img" src="/assets/img/ico-linkedin.png" alt="Linkedin">
+      </a>
+    </div>
+    <span class="update-note">{{ data.sections.footer['update-note'] }}</span>
+  </footer>
 </body>
 </html>
