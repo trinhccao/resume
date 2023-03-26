@@ -1,0 +1,9 @@
+<ul class="timeline">
+  {% for experience in experience_list %}
+    <li class="timeline__item">
+      <h3 class="heading-lv3">{{ experience.title }}</h3>
+      <span class="timeline__subtitle">{{ experience.subtitle }}</span>
+      {% render 'modules/unordered-list', list: experience.experience_items %}
+    </li>
+  {% endfor %}
+</ul>
