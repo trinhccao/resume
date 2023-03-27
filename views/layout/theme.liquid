@@ -4,15 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ data.page_title }}</title>
+  <link rel="stylesheet" href="/assets//css/main.css">
 </head>
 <body>
   <header class="header" id="header">
-    <h1 class="header__heading">{% render 'snippets/avatar', data: data %}</h1>
-    {% render 'snippets/lang-options', data: data %}
+    <div class="container">
+      <h1 class="header__heading">{% render 'snippets/avatar', data: data %}</h1>
+      {% render 'snippets/lang-options', data: data %}
+    </div>
   </header>
 
   <main class="main" id="main">
-    {{ page_content }}
+    <div class="container">
+      {{ page_content }}
+    </div>
   </main>
 
   <footer class="footer" id="footer">

@@ -1,0 +1,207 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url(/assets/fonts/Roboto/Roboto-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 700;
+  src: url(/assets/fonts/Roboto/Roboto-Bold.ttf);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+*, *::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --blue-violet: #963de8;
+  --grape: #8234cb;
+  --grape-dark: #7830bb;
+  --carmine-pink: #e8593a;
+  --yankees-blue: #1e203d;
+  --davys-grey: #515256;
+  --davys-grey-dark: #495057;
+  --white: #fff;
+}
+
+.container {
+  max-width: 1024px;
+  margin: auto;
+  padding: 0 30px;
+}
+
+.header {
+  padding: 36px 0;
+}
+
+.header__heading {
+  display: flex;
+  margin: 0;
+}
+
+.avatar {
+  display: inline-flex;
+  overflow: hidden;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.avatar::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  widtH: 100%;
+  height: 100%;
+  border: 3px solid var(--blue-violet);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.avatar__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.lang-options {
+  display: flex;
+  margin: 30px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lang-options__item {
+  position: relative;
+}
+
+.lang-options__item:not(:first-child) {
+  margin-left: 20px;
+}
+
+
+.lang-options__item:not(:first-child)::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -11.5px;
+  transform: translateY(-50%);
+  margin: -2px 0 0;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: var(--carmine-pink);
+}
+
+.lang-options__link {
+  display: flex;;
+  padding: 0 0 3px;
+  color: var(--carmine-pink);
+  border-bottom: 2px solid transparent;
+  text-decoration: none;
+}
+
+.lang-options__link--active {
+  border-color: var(--carmine-pink);
+}
+
+.heading-lv2 {
+  display: block;
+  margin: 0;
+  line-height: 1.2;
+  font-size: 1.875rem;
+  text-transform: uppercase;
+  color: var(--carmine-pink);
+}
+
+.text-highlight {
+  color: var(--carmine-pink);
+}
+
+.headline-heading {
+  font-size: 2.2125rem;
+  text-transform: unset;
+  color: var(--yankees-blue);
+}
+
+.paragraph {
+  margin: 0;
+  line-height: 1.5;
+  color: var(--davys-grey-dark);
+}
+
+.headline__paragraph {
+  margin-top: 25px;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding: 0;
+  list-style: none;
+}
+
+.cta-buttons__item {
+  flex-grow: 1;
+}
+
+.cta-buttons__item:not(:first-child) {
+  margin-left: 25px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  background: 0 0;
+  transition: 0.2s background-color linear, 0.2s color linear;
+}
+
+.btn--block {
+  display: block;
+}
+
+.btn--primary {
+  color: var(--white);
+  background-color: var(--blue-violet);
+  border: 1px solid var(--blue-violet);
+}
+
+.btn--primary:hover {
+  background-color: var(--grape);
+}
+
+.btn--primary:active {
+  background-color: var(--grape-dark);
+}
+
+.btn--secondary {
+  color: var(--davys-grey);
+  border: 1px solid var(--davys-grey);
+}
+
+.btn--secondary:hover {
+  color: #fff;
+  background-color: var(--davys-grey);
+  border-color: var(--davys-grey);
+}
+
+.btn--secondary:active {
+  color: #fff;
+  background-color: var(--davys-grey-dark);
+  border-color: var(--davys-grey-dark);
+}

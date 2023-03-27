@@ -16,7 +16,7 @@
   ],
   "sections": {
     "headline": {
-      "title": "I am a Developer with ig ambitions.",
+      "title": "I am a Developer with <span class=\"text-highlight\">big ambitions</span>.",
       "description": "Hi. I'm Trinh, a Front-End web developer, who loves to dig deep into how a computer works.",
       "email_me": "E-mail me",
       "open_cv": "Open CV"

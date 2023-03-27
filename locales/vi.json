@@ -16,7 +16,7 @@
   ],
   "sections": {
     "headline": {
-      "title": "Tôi là một lập trình viên có tham vọng lớn.",
+      "title": "Tôi là một lập trình viên có <span class=\"text-highlight\">tham vọng lớn</span>.",
       "description": "Xin chào, tôi là Trình. Tôi là một lập trình viên web Front-End và cũng là một người thích tìm hiểu sâu về cách hoạt động của một chiếc máy tính.",
       "email_me": "E-mail cho tôi",
       "open_cv": "Xem CV"
