@@ -328,6 +328,10 @@ body {
   margin-top: 10px;
 }
 
+.project-card__note-item {
+  color: var(--davys-grey-dark);
+}
+
 .project-card__note-item:not(:first-child) {
   margin-top: 5px;
 }
