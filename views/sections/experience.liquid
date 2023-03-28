@@ -1,12 +1,14 @@
 <section class="section">
-  <h2 class="heading-lv2">{{ section_data.title }}</h2>
-  <ul class="timeline">
-    {% for experience in section_data.experience_list %}
-      <li class="timeline__item">
-        <h3 class="heading-lv3">{{ experience.title }}</h3>
-        <span class="timeline__subtitle">{{ experience.subtitle }}</span>
-        {% render 'snippets/unordered-list', list: experience.items %}
-      </li>
-    {% endfor %}
-  </ul>
+  <div class="container">
+    <h2 class="heading-lv2">{{ section_data.title }}</h2>
+    <ul class="timeline">
+      {% for experience in section_data.experience_list %}
+        <li class="timeline__item">
+          <h3 class="heading-lv3">{{ experience.title }}</h3>
+          <span class="timeline__subtitle">{{ experience.subtitle }}</span>
+          {% render 'modules/unordered-list', list: experience.items %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 </section>

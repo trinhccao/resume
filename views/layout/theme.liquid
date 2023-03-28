@@ -9,15 +9,13 @@
 <body>
   <header class="header" id="header">
     <div class="container">
-      <h1 class="header__heading">{% render 'snippets/avatar', data: data %}</h1>
-      {% render 'snippets/lang-options', data: data %}
+      <h1 class="header__heading">{% render 'modules/avatar', data: data %}</h1>
+      {% render 'modules/lang-options', data: data %}
     </div>
   </header>
 
   <main class="main" id="main">
-    <div class="container">
-      {{ page_content }}
-    </div>
+    {{ page_content }}
   </main>
 
   <footer class="footer" id="footer">

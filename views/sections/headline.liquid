@@ -1,5 +1,18 @@
 <section class="section">
-  <h2 class="heading-lv2 headline-heading">{{ section_data.title }}</h2>
-  <p class="paragraph headline__paragraph">{{ section_data.description }}</p>
-  {% render 'snippets/cta-buttons', section_data: section_data %}
+  <div class="container">
+    <h2 class="heading-lv2 headline-heading">{{ section_data.title }}</h2>
+    <p class="paragraph headline__paragraph">{{ section_data.description }}</p>
+    <ul class="cta-buttons">
+      <li class="cta-buttons__item">
+        <a class="btn btn--block btn--secondary" href="mailto:trinhcao9608@gmail.com">
+          {{ section_data.email_me }}
+        </a>
+      </li>
+      <li class="cta-buttons__item">
+        <a class="btn btn--block btn--primary" href="/files/Chao-Cao-Trinh-CV.pdf">
+        {{ section_data.open_cv }}
+      </a>
+      </li>
+    </ul>
+  </div>
 </section>
