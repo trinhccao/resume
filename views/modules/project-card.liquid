@@ -1,10 +1,12 @@
 <div class="project-card">
-  <em class="project-card__type">{{ project.type }}</em>
-  <p class="paragraph">{{ project.description }}</p>
+  <em class="project-card__type">[{{ project.type }}]</em>
+  <p class="paragraph paragraph--project-card">{{ project.description }}</p>
   <ul class="project-card__note">
     {% for note in project.notes %}
       <li class="project-card__note-item">
-        <span class="project-card__note-keyword">{{ note.keyword }}: </span>
+        <span class="paragraph">
+          <span class="project-card__note-keyword">{{ note.keyword }}: </span>
+        </span>
         {{ note.description }}
       </li>
     {% endfor %}

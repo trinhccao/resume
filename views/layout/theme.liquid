@@ -19,13 +19,17 @@
   </main>
 
   <footer class="footer" id="footer">
-    <div class="footnote">
-      {{ data.sections.footer.copyright }}
-      <a class="social" href="https://linkedin.com/in/trinhcao96/">
-        <img class="social__img" src="/assets/img/ico-linkedin.png" alt="Linkedin">
-      </a>
+    <div class="container">
+      <div class="footer__content">
+        <div class="footnote">
+          {{ data.sections.footer.copyright }}
+          <a class="social" href="https://linkedin.com/in/trinhcao96/">
+            <img class="social__img" src="/assets/img/ico-linkedin.png" width="20" height="20" alt="Linkedin">
+          </a>
+        </div>
+        <span class="update-note">{{ data.sections.footer['update-note'] }}</span>
+      </div>
     </div>
-    <span class="update-note">{{ data.sections.footer['update-note'] }}</span>
   </footer>
 </body>
 </html>

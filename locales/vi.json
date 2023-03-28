@@ -100,6 +100,7 @@
       "projects": [
         {
           "title": "Game",
+          "thumb": "/assets/img/card-thumb-game.jpeg",
           "type": "Pet project",
           "description": "Một trò chơi đua xe mà tôi đã tự lập trình bằng JavaScript.",
           "notes": [
@@ -119,6 +120,7 @@
         },
         {
           "title": "Lịch",
+          "thumb": "/assets/img/card-thumb-calendar.jpeg",
           "type": "Pet project",
           "description": "Một tờ lịch đơn giản mà tôi đã tự lập trình mà không sử dụng bất kỳ thư viện hỗ trợ nào.",
           "notes": [
@@ -130,6 +132,7 @@
         },
         {
           "title": "Timeline",
+          "thumb": "/assets/img/card-thumb-timeline.jpeg",
           "type": "Pet project",
           "description": "Timeline đơn giản được tạo bằng HTML, CSS, JS thuần.",
           "notes": [
