@@ -174,7 +174,6 @@ body {
 
 .cta-buttons {
   display: flex;
-  justify-content: space-between;
   margin: 40px 0 0;
 }
 
@@ -389,4 +388,20 @@ body {
   margin-top: 10px;
   font-size: 0.8em;
   color: var(--philippine-gray);
+}
+
+@media (min-width: 600px) {
+  .project {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .cta-buttons__item {
+    flex-grow: initial;
+  }
+
+  .project {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
