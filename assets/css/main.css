@@ -351,9 +351,10 @@ body {
   margin-top: 5px;
 }
 
-.project-link {
-  display: block;
-  position: relative;
+.overlay-link {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
 }
 
 .icon-external-link {
