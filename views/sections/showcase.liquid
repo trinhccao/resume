@@ -3,13 +3,7 @@
     <h2 class="heading-lv2">{{ section_data.title }}</h2>
     <ul class="project">
       {% for project in section_data.projects %}
-        <li class="project__item">
-          <picture class="project__picture">
-            <img class="project__img" src="{{ project.thumb }}" width="150" height="100" alt="">
-          </picture>
-          <h3 class="label label--project">{{ project.title }}</h3>
-          {% render 'modules/project-card', project: project %}
-        </li>
+        {% render 'modules/project-card', project: project, tag: 'li' %}
       {% endfor %}
     </ul>
   </div>
