@@ -12,7 +12,6 @@
   "devDependencies": {
     "@types/express": "^4.17.17",
     "@types/html-minifier-terser": "^7.0.0",
-    "clean-css": "^5.3.2",
     "rimraf": "^4.4.1",
     "ts-loader": "^9.4.2",
     "ts-node-dev": "^2.0.0",
