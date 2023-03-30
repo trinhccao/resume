@@ -150,7 +150,7 @@
           "notes": [
             {
               "keyword": "Stack",
-              "description": "HTML, CSS, NodeJS, TypeScript, ExpressJS, LiquidJS, Webpack"
+              "description": "HTML, CSS, NodeJS, TypeScript, ExpressJS, Liquid template, Webpack"
             },
             {
               "keyword": "Team size",
