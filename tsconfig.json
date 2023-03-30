@@ -10,9 +10,9 @@
     "skipLibCheck": true,
     "outDir": "dist"
   },
-  "include": [
-    "index.ts",
-    "controllers/**/*",
-    "router/**/*"
+  "exclude": [
+    "node_modules",
+    "dist",
+    "scripts"
   ]
 }

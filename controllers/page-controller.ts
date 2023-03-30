@@ -22,7 +22,6 @@ async function home(
     data,
     page_content: page
   })
-
   res.send(theme)
 }
 
