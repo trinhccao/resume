@@ -23,8 +23,10 @@ async function home(
     data,
     page_content: page
   })
-  const minified = await minify(theme, { collapseWhitespace: true })
-  res.send(minified)
+  const content = process.env.NODE_ENV === 'production'
+    ? await minify(theme, { collapseWhitespace: true })
+    : theme
+  res.send(content)
 }
 
 export default { home }
