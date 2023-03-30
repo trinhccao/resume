@@ -96,7 +96,7 @@
       "projects": [
         {
           "title": "Game",
-          "thumb": "/assets/img/card-thumb-game.jpeg",
+          "thumb": "/images/card-thumb-game.jpeg",
           "type": "Pet project",
           "link": "/static/projects/racing-game/",
           "description": "A racing game that I programmed with pure JavaScript.",
@@ -117,7 +117,7 @@
         },
         {
           "title": "Calendar",
-          "thumb": "/assets/img/card-thumb-calendar.jpeg",
+          "thumb": "/images/card-thumb-calendar.jpeg",
           "type": "Pet project",
           "link": "/static/projects/calendar/",
           "description": "A simple calendar that I created without using of any library.",
@@ -130,7 +130,7 @@
         },
         {
           "title": "Timeline",
-          "thumb": "/assets/img/card-thumb-timeline.jpeg",
+          "thumb": "/images/card-thumb-timeline.jpeg",
           "type": "Pet project",
           "link": "/static/projects/timeline/",
           "description": "A simple timeline that I created using HTML and pure CSS.",
