@@ -14,7 +14,11 @@ router.use((req, res, next) => {
   next()
 })
 
-router.use('/', express.static('static'))
+router.get('/', (req, res) => {
+  const accepts = req.headers['accept-language']?.split(',');
+  res.redirect(accepts?.[0].match('en') ? 'en/' : 'vi/');
+})
 router.get('/:lang/', pageController.home)
+router.use('/', express.static('static'))
 
 export default router
