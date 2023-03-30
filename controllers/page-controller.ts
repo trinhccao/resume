@@ -1,5 +1,6 @@
 import { Request, Response, NextFunction } from 'express'
 import { Liquid } from 'liquidjs'
+import { minify } from 'html-minifier-terser'
 import vi from '../models/vi.json'
 import en from '../models/en.json'
 
@@ -22,7 +23,8 @@ async function home(
     data,
     page_content: page
   })
-  res.send(theme)
+  const minified = await minify(theme, { collapseWhitespace: true })
+  res.send(minified)
 }
 
 export default { home }
