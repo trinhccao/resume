@@ -1,17 +1,19 @@
-<section class="section">
-  <div class="container">
-    <h2 class="heading-lv2">{{ section_data.title }}</h2>
-    <dl class="description-list">
-      {% for item in section_data.skill_list %}
-        <div class="description-list__group">
-          <dt class="description-list__term">
-            {% render 'modules/label', text: item.title %}
-          </dt>
-          <dd class="description-list__description">
-            <span class="paragraph">{{ item.description }}</span>
-          </dd>
-        </div>
-      {% endfor %}
-    </dl>
-  </div>
-</section>
+{% capture section_content %}
+  <dl class="description-list">
+    {% for item in section_data.skill_list %}
+      <div class="description-list__group">
+        <dt class="description-list__term">
+          {% render 'snippets/label', text: item.title %}
+        </dt>
+        <dd class="description-list__description">
+          <span class="paragraph">{{ item.description }}</span>
+        </dd>
+      </div>
+    {% endfor %}
+  </dl>
+{% endcapture %}
+
+{% render 'snippets/section',
+  section_title: section_data.title,
+  section_content: section_content
+%}

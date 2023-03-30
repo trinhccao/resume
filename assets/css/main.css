@@ -139,6 +139,12 @@ body {
   color: var(--carmine-pink);
 }
 
+.heading-lv2--headline {
+  font-size: 2.2125rem;
+  text-transform: unset;
+  color: var(--yankees-blue);
+}
+
 .heading-lv3 {
   line-height: 1.2;
   font-weight: 700;
@@ -151,12 +157,6 @@ body {
 
 .text-highlight {
   color: var(--carmine-pink);
-}
-
-.headline-heading {
-  font-size: 2.2125rem;
-  text-transform: unset;
-  color: var(--yankees-blue);
 }
 
 .paragraph {

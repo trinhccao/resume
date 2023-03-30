@@ -1,18 +1,21 @@
-<section class="section">
-  <div class="container">
-    <h2 class="heading-lv2 headline-heading">{{ section_data.title }}</h2>
-    <p class="paragraph paragraph--headline">{{ section_data.description }}</p>
-    <ul class="cta-buttons">
-      <li class="cta-buttons__item">
-        <a class="btn btn--block btn--secondary" href="mailto:trinhcao9608@gmail.com">
-          {{ section_data.email_me }}
-        </a>
-      </li>
-      <li class="cta-buttons__item">
-        <a class="btn btn--block btn--primary" href="/files/Chao-Cao-Trinh-CV.pdf">
-        {{ section_data.open_cv }}
+{% capture section_content %}
+  <p class="paragraph paragraph--headline">{{ section_data.description }}</p>
+  <ul class="cta-buttons">
+    <li class="cta-buttons__item">
+      <a class="btn btn--block btn--secondary" href="mailto:trinhcao9608@gmail.com">
+        {{ section_data.email_me }}
       </a>
-      </li>
-    </ul>
-  </div>
-</section>
+    </li>
+    <li class="cta-buttons__item">
+      <a class="btn btn--block btn--primary" href="/files/Chao-Cao-Trinh-CV.pdf">
+      {{ section_data.open_cv }}
+    </a>
+    </li>
+  </ul>
+{% endcapture %}
+
+{% render 'snippets/section',
+  heading_classes: 'heading-lv2--headline'
+  section_title: section_data.title,
+  section_content: section_content
+%}

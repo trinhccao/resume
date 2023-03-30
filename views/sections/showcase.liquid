@@ -1,10 +1,12 @@
-<section class="section">
-  <div class="container">
-    <h2 class="heading-lv2">{{ section_data.title }}</h2>
-    <ul class="project">
-      {% for project in section_data.projects %}
-        {% render 'modules/project-card', project: project, tag: 'li' %}
-      {% endfor %}
-    </ul>
-  </div>
-</section>
+{% capture section_content %}
+  <ul class="project">
+    {% for project in section_data.projects %}
+      {% render 'snippets/project-card', project: project, tag: 'li' %}
+    {% endfor %}
+  </ul>
+{% endcapture %}
+
+{% render 'snippets/section',
+  section_title: section_data.title,
+  section_content: section_content
+%}
