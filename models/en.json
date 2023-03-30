@@ -98,7 +98,7 @@
           "title": "Game",
           "thumb": "/images/card-thumb-game.jpeg",
           "type": "Pet project",
-          "link": "/static/projects/racing-game/",
+          "link": "/projects/racing-game/",
           "description": "A racing game that I programmed with pure JavaScript.",
           "notes": [
             {
@@ -119,7 +119,7 @@
           "title": "Calendar",
           "thumb": "/images/card-thumb-calendar.jpeg",
           "type": "Pet project",
-          "link": "/static/projects/calendar/",
+          "link": "/projects/calendar/",
           "description": "A simple calendar that I created without using of any library.",
           "notes": [
             {
@@ -132,12 +132,29 @@
           "title": "Timeline",
           "thumb": "/images/card-thumb-timeline.jpeg",
           "type": "Pet project",
-          "link": "/static/projects/timeline/",
+          "link": "/projects/timeline/",
           "description": "A simple timeline that I created using HTML and pure CSS.",
           "notes": [
             {
               "keyword": "Stack",
               "description": "HTML, CSS, JavaScript."
+            }
+          ]
+        },
+        {
+          "title": "Resume",
+          "thumb": "/images/trinh-cao.jpg",
+          "type": "Pet project",
+          "link": "https://github.com/trinhccao/resume",
+          "description": "A resume page that I have build everything from scratch.",
+          "notes": [
+            {
+              "keyword": "Stack",
+              "description": "HTML, CSS, NodeJS, TypeScript, ExpressJS, LiquidJS, Webpack"
+            },
+            {
+              "keyword": "Team size",
+              "description": 1
             }
           ]
         }
