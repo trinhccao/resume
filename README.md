@@ -1,11 +1,15 @@
-## Installing
+## This project
+
+Personal resume page
+
+### Installing
 
 ```npm i```
 
-## Run Development server
+### Run Development server
 
 ```npm run dev```
 
-## Build
+### Build
 
 ```npm run build```
