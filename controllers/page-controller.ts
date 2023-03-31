@@ -1,8 +1,7 @@
 import { Request, Response, NextFunction } from 'express'
 import { Liquid } from 'liquidjs'
 import { minify } from 'html-minifier-terser'
-import vi from '../models/vi.json'
-import en from '../models/en.json'
+import getLocale from '../helpers/get-locale'
 
 const engine = new Liquid({ extname: '.liquid', root: 'views' })
 
@@ -17,7 +16,7 @@ async function home(
     return next()
   }
 
-  const data = lang === 'en' ? en : vi
+  const data = await getLocale(lang)
   const page = await engine.renderFile('pages/home', { data })
   const theme = await engine.renderFile('layout/theme', {
     data,

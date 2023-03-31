@@ -5,7 +5,7 @@ const cleanCss = new CleanCSS()
 
 await cp('views', 'dist/views', { force: true, recursive: true })
 await cp('static', 'dist/static', { force: true, recursive: true })
-await cp('static', 'dist/static', { force: true, recursive: true })
+await cp('locales', 'dist/locales', { force: true, recursive: true })
 await copyFile('.env', 'dist/.env')
 
 const content = await readFile('static/styles/main.css')
