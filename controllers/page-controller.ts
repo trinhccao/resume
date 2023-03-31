@@ -3,7 +3,11 @@ import { Liquid } from 'liquidjs'
 import { minify } from 'html-minifier-terser'
 import localeModel from '../models/locale-model'
 
-const engine = new Liquid({ extname: '.liquid', root: 'views' })
+const engine = new Liquid({
+  extname: '.liquid',
+  root: 'views',
+  cache: process.env.NODE_ENV === 'production'
+})
 const renderFile = engine.renderFile.bind(engine)
 
 async function home(

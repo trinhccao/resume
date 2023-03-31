@@ -19,6 +19,7 @@ router.get('/', (req, res) => {
   res.redirect(accepts?.[0].match('en') ? 'en/' : 'vi/');
 })
 router.get('/:lang/', pageController.home)
-router.use('/', express.static('static'))
+router.use(express.static('static'))
+router.use((_req, res) => res.status(404).render('errors/404'))
 
 export default router

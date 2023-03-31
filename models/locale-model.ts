@@ -16,7 +16,7 @@ interface FileInfo {
 
 class LocaleModel {
   #locales: Map<string, LocaleInterface> = new Map()
-  #rootDir = 'locales'
+  #rootDir = 'data'
   #regex = /^(\w+)(-\w+)?(\.\w+)?\.json$/
 
   constructor() {
