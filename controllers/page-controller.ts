@@ -1,30 +1,26 @@
-import { Request, Response, NextFunction } from 'express'
+import { NextFunction, Request, Response } from 'express'
 import { Liquid } from 'liquidjs'
 import { minify } from 'html-minifier-terser'
-import getLocale from '../helpers/get-locale'
+import localeModel from '../models/locale-model'
 
 const engine = new Liquid({ extname: '.liquid', root: 'views' })
+const renderFile = engine.renderFile.bind(engine)
 
 async function home(
   req: Request,
   res: Response,
-  next: NextFunction
+  next: NextFunction,
 ): Promise<void> {
-  const { lang } = req.params
+  const data = localeModel.getLocaleData(req.params.lang)
 
-  if (!lang || !lang.match(/vi|en/)) {
+  if (!data) {
     return next()
   }
 
-  const data = await getLocale(lang)
-  const page = await engine.renderFile('pages/home', { data })
-  const theme = await engine.renderFile('layout/theme', {
-    data,
-    page_content: page
-  })
-  const content = process.env.NODE_ENV === 'production'
-    ? await minify(theme, { collapseWhitespace: true })
-    : theme
+  const page = await renderFile('pages/home', { data })
+  const theme = await renderFile('layout/theme', { data, page_content: page })
+  const content = await minify(theme, { collapseWhitespace: true })
+
   res.send(content)
 }
 
