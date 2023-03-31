@@ -16,8 +16,8 @@
   ],
   "sections": {
     "headline": {
-      "title": "I am a Developer with <span class=\"text-highlight\">big ambitions</span>.",
-      "description": "Hi. I'm Trinh, a Front-End web developer, who loves to dig deep into how a computer works.",
+      "title": "I am a developer with <span class=\"text-highlight\">big ambitions</span>.",
+      "description": "Hi, I'm Trinh. I'm a front-end web developer, who loves to dig deep into how a computer works.",
       "email_me": "E-mail me",
       "open_cv": "Open CV"
     },
@@ -60,6 +60,22 @@
         {
           "title": "JavaScript",
           "description": "JavaScript is a very interesting and powerful programming language. It's great, I have spent a lot of time learning JS and I am confident that I have a solid background in JavaScript. I love the job that use JavaScript."
+        },
+        {
+          "title": "TypeScript",
+          "description": "I'm using TypeScript for most my works."
+        },
+        {
+          "title": "NodeJS",
+          "description": "As my passion is computer programming, I'm not just a front-end person. Instead, I took advantage of my JavaScript knowledge to learn about NodeJS as well as a lot of back-end knowledge."
+        },
+        {
+          "title": "ReactJS",
+          "description": "ReactJS is my favorite UI library. I don't have much project using ReactJS, but I have good knowledge of core ReactJS and I'm looking forward to working with it."
+        },
+        {
+          "title": "Shopify",
+          "description": "Used to work with Shopify and can work with Shopify."
         }
       ]
     },
@@ -121,19 +137,6 @@
           "type": "Pet project",
           "link": "/projects/calendar/",
           "description": "A simple calendar that I created without using of any library.",
-          "notes": [
-            {
-              "keyword": "Stack",
-              "description": "HTML, CSS, JavaScript."
-            }
-          ]
-        },
-        {
-          "title": "Timeline",
-          "thumb": "/images/card-thumb-timeline.jpeg",
-          "type": "Pet project",
-          "link": "/projects/timeline/",
-          "description": "A simple timeline that I created using HTML and pure CSS.",
           "notes": [
             {
               "keyword": "Stack",

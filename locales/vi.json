@@ -17,7 +17,7 @@
   "sections": {
     "headline": {
       "title": "Tôi là một lập trình viên có <span class=\"text-highlight\">tham vọng lớn</span>.",
-      "description": "Xin chào, tôi là Trình. Tôi là một lập trình viên web Front-End và cũng là một người thích tìm hiểu sâu về cách hoạt động của một chiếc máy tính.",
+      "description": "Xin chào, tôi là Trình. Tôi là một lập trình viên web front-end và cũng là một người thích tìm hiểu sâu về cách hoạt động của một chiếc máy tính.",
       "email_me": "E-mail cho tôi",
       "open_cv": "Xem CV"
     },
@@ -60,6 +60,22 @@
         {
           "title": "JavaScript",
           "description": "JavaScript là một ngôn ngữ lập trình cực kỳ thú vị và mạnh mẽ. Tôi đã dành rất nhiều thời gian của mình vào việc học JavaScript, vậy nên tôi tự tin rằng mình có một nền tảng kiến thức JavaScript tốt để phục vụ cho công việc. Tôi đặc biệt yêu thích các công việc sử dụng JavaScript."
+        },
+        {
+          "title": "TypeScript",
+          "description": "Tôi sử dụng TypeScript cho hầu hết công việc của mình."
+        },
+        {
+          "title": "NodeJS",
+          "description": "Là một người đam mê về lập trình máy, tôi không đơn thuần là người chỉ biết về front-end. Thay vào đó, tôi đã tận dụng thế mạnh JavaScript của mình để học về NodeJS cũng như nhiều kiến thức về phía back-end."
+        },
+        {
+          "title": "ReactJS",
+          "description": "ReactJS là thư viện UI yêu thích của tôi. Mặc dù tôi chưa có nhiều dự án làm bằng ReactJS, nhưng tôi có kiến thức về core ReactJS tốt và mong muốn được làm việc với nó."
+        },
+        {
+          "title": "Shopify",
+          "description": "Đã từng làm việc sử dụng Shopify."
         }
       ]
     },
@@ -121,19 +137,6 @@
           "type": "Pet project",
           "link": "/projects/calendar/",
           "description": "Một tờ lịch đơn giản mà tôi đã tự lập trình mà không sử dụng bất kỳ thư viện hỗ trợ nào.",
-          "notes": [
-            {
-              "keyword": "Stack",
-              "description": "HTML, CSS, JavaScript."
-            }
-          ]
-        },
-        {
-          "title": "Timeline",
-          "thumb": "/images/card-thumb-timeline.jpeg",
-          "type": "Pet project",
-          "link": "/projects/timeline/",
-          "description": "Timeline đơn giản được tạo bằng HTML, CSS, JS thuần.",
           "notes": [
             {
               "keyword": "Stack",
